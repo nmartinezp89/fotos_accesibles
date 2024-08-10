@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="css/gallery.css">
+	
+</head>
+<body>
+	
+	<div id = "image" backgroud="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg" src="img/billar1.png" tabindex="0">
+		Hover over an image below to display here.
+	</div>
+	
+	<div class="container">
+		<img class = "preview" alt = "Billar efecto vintage" src = "img/billar2.png" onmouseover = "upDate(this)" onmouseout = "unDo()">
+		
+		<img class = "preview" alt = "Lampara Billar  plateada" src = "img/billar3.png" onmouseover = "upDate(this)" onmouseout = "unDo()">
+		
+		<img class = "preview" src = "img/circulo.png" alt = "lampara Circulo" onmouseover = "upDate(this)" onmouseout = "unDo()">
+
+		<img class = "preview" src = "img/lampara.png" alt = "Lampara Cuadrado" onmouseover = "upDate(this)" onmouseout = "unDo()">
+
+		<img class = "preview" src = "img/Trangulo.png" alt = "Lampara Triangulo" onmouseover = "upDate(this)" onmouseout = "unDo()">
+
+		<img class = "preview" src = "img/oro_rosa.png" alt = "Lampara oro Rosa" onmouseover = "upDate(this)" onmouseout = "unDo()">
+	</div>
+	<script src = "js/gallery.js"></script>	
+</body>
+</html>
